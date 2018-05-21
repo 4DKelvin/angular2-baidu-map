@@ -1,0 +1,1183 @@
+{
+    "__symbolic": "module",
+    "version": 3,
+    "metadata": {
+        "BaiduMapModule": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "NgModule",
+                    "line": 17,
+                    "character": 1
+                },
+                "arguments": [{
+                    "declarations": [{
+                        "__symbolic": "reference",
+                        "name": "ɵa"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵe"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵf"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵg"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵh"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵi"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵj"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵk"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵl"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵm"
+                    }],
+                    "exports": [{
+                        "__symbolic": "reference",
+                        "name": "ɵa"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵe"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵf"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵg"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵh"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵi"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵj"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵk"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵl"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵm"
+                    }]
+                }]
+            }],
+            "members": {},
+            "statics": {
+                "forRoot": {
+                    "__symbolic": "function",
+                    "parameters": ["_config"],
+                    "value": {
+                        "ngModule": {
+                            "__symbolic": "reference",
+                            "name": "BaiduMapModule"
+                        },
+                        "providers": [{
+                            "provide": {
+                                "__symbolic": "reference",
+                                "name": "ɵc"
+                            },
+                            "useValue": {
+                                "__symbolic": "reference",
+                                "name": "_config"
+                            }
+                        }, {
+                            "__symbolic": "reference",
+                            "name": "ɵd"
+                        }]
+                    }
+                }
+            }
+        },
+        "BMapInstance": {
+            "__symbolic": "interface"
+        },
+        "MapOptions": {
+            "__symbolic": "interface"
+        },
+        "MapTypeEnum": {
+            "BMAP_NORMAL_MAP": "BMAP_NORMAL_MAP",
+            "BMAP_PERSPECTIVE_MAP": "BMAP_PERSPECTIVE_MAP",
+            "BMAP_SATELLITE_MAP": "BMAP_SATELLITE_MAP",
+            "BMAP_HYBRID_MAP": "BMAP_HYBRID_MAP"
+        },
+        "BMapType": {
+            "__symbolic": "interface"
+        },
+        "BProjection": {
+            "__symbolic": "interface"
+        },
+        "Point": {
+            "__symbolic": "interface"
+        },
+        "BMarker": {
+            "__symbolic": "interface"
+        },
+        "Marker": {
+            "__symbolic": "interface"
+        },
+        "MarkerOptions": {
+            "__symbolic": "interface"
+        },
+        "BPolyline": {
+            "__symbolic": "interface"
+        },
+        "PolylineOptions": {
+            "__symbolic": "interface"
+        },
+        "BCircle": {
+            "__symbolic": "interface"
+        },
+        "CircleOptions": {
+            "__symbolic": "interface"
+        },
+        "BPolygon": {
+            "__symbolic": "interface"
+        },
+        "PolygonOptions": {
+            "__symbolic": "interface"
+        },
+        "BHeatmap": {
+            "__symbolic": "interface"
+        },
+        "HeatmapOptions": {
+            "__symbolic": "interface"
+        },
+        "HeatmapData": {
+            "__symbolic": "interface"
+        },
+        "BTileLayer": {
+            "__symbolic": "interface"
+        },
+        "TileLayerOptions": {
+            "__symbolic": "interface"
+        },
+        "getTilesUrlFunc": {
+            "__symbolic": "interface"
+        },
+        "BTrafficLayer": {
+            "__symbolic": "interface"
+        },
+        "TrafficLayerOptions": {
+            "__symbolic": "interface"
+        },
+        "PredictDate": {
+            "__symbolic": "interface"
+        },
+        "BMarkerClusterer": {
+            "__symbolic": "interface"
+        },
+        "MarkerClustererOptions": {
+            "__symbolic": "interface"
+        },
+        "TextIconStyle": {
+            "__symbolic": "interface"
+        },
+        "BControl": {
+            "__symbolic": "interface"
+        },
+        "BNavigationControl": {
+            "__symbolic": "interface"
+        },
+        "BOverviewMapControl": {
+            "__symbolic": "interface"
+        },
+        "BScaleControl": {
+            "__symbolic": "interface"
+        },
+        "BMapTypeControl": {
+            "__symbolic": "interface"
+        },
+        "BGeolocationControl": {
+            "__symbolic": "interface"
+        },
+        "BPanoramaControlControl": {
+            "__symbolic": "interface"
+        },
+        "ControlType": {
+            "__symbolic": "interface"
+        },
+        "ControlAnchor": {
+            "BMAP_ANCHOR_TOP_LEFT": 0,
+            "BMAP_ANCHOR_TOP_RIGHT": 1,
+            "BMAP_ANCHOR_BOTTOM_LEFT": 2,
+            "BMAP_ANCHOR_BOTTOM_RIGHT": 3
+        },
+        "GeolocationControlOptions": {
+            "__symbolic": "interface"
+        },
+        "LengthUnit": {
+            "BMAP_UNIT_METRIC": "metric",
+            "BMAP_UNIT_IMPERIAL": "us"
+        },
+        "NavigationControlOptions": {
+            "__symbolic": "interface"
+        },
+        "NavigationControlType": {
+            "BMAP_NAVIGATION_CONTROL_LARGE": 0,
+            "BMAP_NAVIGATION_CONTROL_SMALL": 1,
+            "BMAP_NAVIGATION_CONTROL_PAN": 2,
+            "BMAP_NAVIGATION_CONTROL_ZOOM": 3
+        },
+        "OverviewMapControlOptions": {
+            "__symbolic": "interface"
+        },
+        "ScaleControlOptions": {
+            "__symbolic": "interface"
+        },
+        "MapTypeControlOptions": {
+            "__symbolic": "interface"
+        },
+        "MapTypeControlType": {
+            "BMAP_MAPTYPE_CONTROL_HORIZONTAL": 0,
+            "BMAP_MAPTYPE_CONTROL_DROPDOWN": 1,
+            "BMAP_MAPTYPE_CONTROL_MAP": 2
+        },
+        "BInfoWindowConstructor": {
+            "__symbolic": "interface"
+        },
+        "BInfoWindowOptions": {
+            "__symbolic": "interface"
+        },
+        "ɵa": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Component",
+                    "line": 17,
+                    "character": 1
+                },
+                "arguments": [{
+                    "providers": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }],
+                    "selector": "baidu-map",
+                    "styles": ["\n        .baidu-map-instance {\n            width: 100%;\n            height: 100%;\n            display: none;\n        }\n        .baidu-map-offline {\n            width: 100%;\n            height: 100%;\n            background-color: #E6E6E6;\n            position: relative;\n            display: none;\n        }\n        .baidu-map-offline label {\n            fontSize: 30px;\n            margin: 0;\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            margin-right: -50%;\n            transform: translate(-50%, -50%);\n        }\n        .tranclude-content {\n            display: none;\n        }\n        "],
+                    "template": "\n    <div #mapinstance class=\"baidu-map-instance\"></div>\n    <div class=\"baidu-map-offline\">\n        <label>{{ 'NO_NETWORK' }}</label>\n    </div>\n    <div class=\"tranclude-content\">\n        <ng-content></ng-content>\n    </div>\n    "
+                }]
+            }],
+            "members": {
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 59,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 61,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "clicked": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 62,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "mapInstance": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "ViewChild",
+                            "line": 64,
+                            "character": 3
+                        },
+                        "arguments": ["mapinstance"]
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnChanges": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }],
+                "addListener": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵb": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Injectable",
+                    "line": 13,
+                    "character": 1
+                }
+            }],
+            "members": {
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameterDecorators": [
+                        [{
+                            "__symbolic": "call",
+                            "expression": {
+                                "__symbolic": "reference",
+                                "module": "@angular/core",
+                                "name": "Inject",
+                                "line": 20,
+                                "character": 15
+                            },
+                            "arguments": [{
+                                "__symbolic": "reference",
+                                "name": "ɵc"
+                            }]
+                        }], null
+                    ],
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵc"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵd"
+                    }]
+                }],
+                "createMap": [{
+                    "__symbolic": "method"
+                }],
+                "setOptions": [{
+                    "__symbolic": "method"
+                }],
+                "addOverlay": [{
+                    "__symbolic": "method"
+                }],
+                "removeOverlay": [{
+                    "__symbolic": "method"
+                }],
+                "addTileLayer": [{
+                    "__symbolic": "method"
+                }],
+                "removeTileLayer": [{
+                    "__symbolic": "method"
+                }],
+                "addControl": [{
+                    "__symbolic": "method"
+                }],
+                "removeControl": [{
+                    "__symbolic": "method"
+                }],
+                "getNativeMap": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵc": {
+            "__symbolic": "class",
+            "members": {}
+        },
+        "ɵd": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Injectable",
+                    "line": 17,
+                    "character": 1
+                }
+            }],
+            "members": {
+                "load": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵe": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 19,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "marker"
+                }]
+            }],
+            "members": {
+                "point": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 23,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 24,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 26,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "clicked": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 27,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnChanges": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }],
+                "setOptions": [{
+                    "__symbolic": "method"
+                }],
+                "addListener": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵf": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 13,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "control"
+                }]
+            }],
+            "members": {
+                "type": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 17,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 18,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 20,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }],
+                "createControl": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵg": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 18,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "polyline"
+                }]
+            }],
+            "members": {
+                "points": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 22,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 23,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 25,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnChanges": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }],
+                "setOptions": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵh": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 18,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "circle"
+                }]
+            }],
+            "members": {
+                "center": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 22,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "radius": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 23,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 24,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 26,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnChanges": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }],
+                "setOptions": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵi": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 18,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "polygon"
+                }]
+            }],
+            "members": {
+                "points": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 22,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 23,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 25,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnChanges": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }],
+                "setOptions": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵj": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 18,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "heatmap"
+                }]
+            }],
+            "members": {
+                "dataset": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 22,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 23,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 25,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵd"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnChanges": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵk": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 6,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "tilelayer"
+                }]
+            }],
+            "members": {
+                "getTilesUrl": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 10,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 11,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 13,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵl": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 5,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "trafficlayer"
+                }]
+            }],
+            "members": {
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 9,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 11,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }]
+            }
+        },
+        "ɵm": {
+            "__symbolic": "class",
+            "decorators": [{
+                "__symbolic": "call",
+                "expression": {
+                    "__symbolic": "reference",
+                    "module": "@angular/core",
+                    "name": "Directive",
+                    "line": 27,
+                    "character": 1
+                },
+                "arguments": [{
+                    "selector": "marker-clusterer"
+                }]
+            }],
+            "members": {
+                "options": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Input",
+                            "line": 31,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "loaded": [{
+                    "__symbolic": "property",
+                    "decorators": [{
+                        "__symbolic": "call",
+                        "expression": {
+                            "__symbolic": "reference",
+                            "module": "@angular/core",
+                            "name": "Output",
+                            "line": 33,
+                            "character": 3
+                        }
+                    }]
+                }],
+                "__ctor__": [{
+                    "__symbolic": "constructor",
+                    "parameters": [{
+                        "__symbolic": "reference",
+                        "name": "ɵb"
+                    }, {
+                        "__symbolic": "reference",
+                        "name": "ɵd"
+                    }]
+                }],
+                "ngOnInit": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnChanges": [{
+                    "__symbolic": "method"
+                }],
+                "resetOptions": [{
+                    "__symbolic": "method"
+                }],
+                "ngOnDestroy": [{
+                    "__symbolic": "method"
+                }]
+            }
+        }
+    },
+    "origins": {
+        "BaiduMapModule": "./index",
+        "BMapInstance": "./types/Map",
+        "MapOptions": "./types/Map",
+        "MapTypeEnum": "./types/Map",
+        "BMapType": "./types/MapType",
+        "BProjection": "./types/Projection",
+        "Point": "./types/Point",
+        "BMarker": "./types/Marker",
+        "Marker": "./types/Marker",
+        "MarkerOptions": "./types/Marker",
+        "BPolyline": "./types/Polyline",
+        "PolylineOptions": "./types/Polyline",
+        "BCircle": "./types/Circle",
+        "CircleOptions": "./types/Circle",
+        "BPolygon": "./types/Polygon",
+        "PolygonOptions": "./types/Polygon",
+        "BHeatmap": "./types/Heatmap",
+        "HeatmapOptions": "./types/Heatmap",
+        "HeatmapData": "./types/Heatmap",
+        "BTileLayer": "./types/TileLayer",
+        "TileLayerOptions": "./types/TileLayer",
+        "getTilesUrlFunc": "./types/TileLayer",
+        "BTrafficLayer": "./types/TrafficLayer",
+        "TrafficLayerOptions": "./types/TrafficLayer",
+        "PredictDate": "./types/TrafficLayer",
+        "BMarkerClusterer": "./types/MarkerClusterer",
+        "MarkerClustererOptions": "./types/MarkerClusterer",
+        "TextIconStyle": "./types/TextIconOverlay",
+        "BControl": "./types/Control",
+        "BNavigationControl": "./types/Control",
+        "BOverviewMapControl": "./types/Control",
+        "BScaleControl": "./types/Control",
+        "BMapTypeControl": "./types/Control",
+        "BGeolocationControl": "./types/Control",
+        "BPanoramaControlControl": "./types/Control",
+        "ControlType": "./types/Control",
+        "ControlAnchor": "./types/Control",
+        "GeolocationControlOptions": "./types/Control",
+        "LengthUnit": "./types/Control",
+        "NavigationControlOptions": "./types/Control",
+        "NavigationControlType": "./types/Control",
+        "OverviewMapControlOptions": "./types/Control",
+        "ScaleControlOptions": "./types/Control",
+        "MapTypeControlOptions": "./types/Control",
+        "MapTypeControlType": "./types/Control",
+        "BInfoWindowConstructor": "./types/InfoWindow",
+        "BInfoWindowOptions": "./types/InfoWindow",
+        "ɵa": "./components/map.component",
+        "ɵb": "./providers/mapService",
+        "ɵc": "./providers/scriptLoader",
+        "ɵd": "./providers/scriptLoader",
+        "ɵe": "./components/marker.component",
+        "ɵf": "./components/control.component",
+        "ɵg": "./components/polyline.component",
+        "ɵh": "./components/circle.component",
+        "ɵi": "./components/polygon.component",
+        "ɵj": "./components/heatmap.component",
+        "ɵk": "./components/tilelayer.component",
+        "ɵl": "./components/trafficlayer.component",
+        "ɵm": "./components/markerClusterer.component"
+    },
+    "importAs": "angular2-baidu-map"
+}

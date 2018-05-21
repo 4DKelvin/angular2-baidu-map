@@ -1,9 +1,0 @@
-{
-  "rules": {
-    "no-implicit-dependencies": false,
-    "max-classes-per-file": [true, 3],
-    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
-    "interface-name": false,
-    "no-unused-variable": true
-  }
-}
