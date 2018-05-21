@@ -1,16 +1,16 @@
 {
-  "name": "angular2-baidu-map",
-  "version": "4.3.1",
-  "license": "GPL-3.0",
-  "description": "Angular2 component for Baidu map",
-  "author": "Howard.Zuo",
-  "ngPackage": {
-    "lib": {
-      "entryFile": "./public_api.ts"
+    "name": "angular2-baidu-map",
+    "version": "4.3.1",
+    "license": "GPL-3.0",
+    "description": "Angular2 component for Baidu map",
+    "author": "Howard.Zuo",
+    "ngPackage": {
+        "lib": {
+            "entryFile": "./public_api.ts"
+        },
+        "dest": "../dist/"
     },
-    "dest": "../dist/"
-  },
-  "peerDependencies": {
-    "@angular/core": "^5.2.11"
-  }
+    "peerDependencies": {
+        "@angular/core": "~4.4.6"
+    }
 }

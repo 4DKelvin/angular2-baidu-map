@@ -2,33 +2,33 @@ import { BIcon, Icon } from './Icon'
 import { BSize, Size } from './Size'
 
 export interface BControlConstructor {
-  new (opts: any): BControl
+  new(opts: any): BControl
 }
 
-export interface BControl {}
+export interface BControl { }
 
 export interface BNavigationControlConstructor extends BControlConstructor {
-  new (opts: BNavigationControlOptions): BNavigationControl
+  new(opts: BNavigationControlOptions): BNavigationControl
 }
 
 export interface BOverviewMapControlConstructor extends BControlConstructor {
-  new (opts: BOverviewMapControlOptions): BOverviewMapControl
+  new(opts: BOverviewMapControlOptions): BOverviewMapControl
 }
 
 export interface BScaleControlConstructor extends BControlConstructor {
-  new (opts: BScaleControlOptions): BScaleControl
+  new(opts: BScaleControlOptions): BScaleControl
 }
 
 export interface BMapTypeControlConstructor extends BControlConstructor {
-  new (opts: BMapTypeControlOptions): BMapTypeControl
+  new(opts: BMapTypeControlOptions): BMapTypeControl
 }
 
 export interface BGeolocationConstructor extends BControlConstructor {
-  new (opts: BGeolocationControlOptions): BGeolocationControl
+  new(opts: BGeolocationControlOptions): BGeolocationControl
 }
 
 export interface BPanoramaControlConstructor extends BControlConstructor {
-  new (): BPanoramaControlControl
+  new(): BPanoramaControlControl
 }
 
 export interface BNavigationControl extends BControl {
@@ -47,14 +47,14 @@ export interface BScaleControl extends BControl {
   setUnit(unit: LengthUnit): void
 }
 
-export interface BMapTypeControl extends BControl {}
+export interface BMapTypeControl extends BControl { }
 
 export interface BGeolocationControl extends BControl {
   location(): void
   getAddressComponent(): AddressComponent
 }
 
-export interface BPanoramaControlControl extends BControl {}
+export interface BPanoramaControlControl extends BControl { }
 
 export interface ControlOptions {
   anchor?: ControlAnchor
@@ -88,9 +88,9 @@ export interface BOverviewMapControlOptions extends BControlOptions {
   isOpen?: boolean
 }
 
-export interface ScaleControlOptions extends ControlOptions {}
+export interface ScaleControlOptions extends ControlOptions { }
 
-export interface BScaleControlOptions extends BControlOptions {}
+export interface BScaleControlOptions extends BControlOptions { }
 
 export interface MapTypeControlOptions {
   type?: MapTypeControlType
@@ -133,8 +133,8 @@ export enum MapTypeControlType {
 }
 
 export enum LengthUnit {
-  BMAP_UNIT_METRIC = 'metric',
-  BMAP_UNIT_IMPERIAL = 'us'
+  BMAP_UNIT_METRIC = <any>'metric',
+  BMAP_UNIT_IMPERIAL = <any>'us'
 }
 
 export interface AddressComponent {

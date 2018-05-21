@@ -8,7 +8,7 @@ import { BSize } from './Size'
 import { BMapType } from './MapType'
 
 export interface BMapConstructor {
-  new (el: HTMLElement | string, opts: MapOptions): BMapInstance
+  new(el: HTMLElement | string, opts: MapOptions): BMapInstance
 }
 
 export interface BMapInstance {
@@ -124,10 +124,10 @@ export interface BPanOptions {
 }
 
 export enum MapTypeEnum {
-  BMAP_NORMAL_MAP = 'BMAP_NORMAL_MAP',
-  BMAP_PERSPECTIVE_MAP = 'BMAP_PERSPECTIVE_MAP',
-  BMAP_SATELLITE_MAP = 'BMAP_SATELLITE_MAP',
-  BMAP_HYBRID_MAP = 'BMAP_HYBRID_MAP'
+  BMAP_NORMAL_MAP = <any>'BMAP_NORMAL_MAP',
+  BMAP_PERSPECTIVE_MAP = <any>'BMAP_PERSPECTIVE_MAP',
+  BMAP_SATELLITE_MAP = <any>'BMAP_SATELLITE_MAP',
+  BMAP_HYBRID_MAP = <any>'BMAP_HYBRID_MAP'
 }
 
 export function isMapTypeEnum(maptype: MapTypeEnum | BMapType): maptype is MapTypeEnum {

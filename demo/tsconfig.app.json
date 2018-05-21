@@ -1,7 +1,15 @@
 {
-  "extends": "../tsconfig.json",
-  "compilerOptions": {
-    "module": "es2015"
-  },
-  "exclude": ["test.ts", "**/*.spec.ts"]
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "module": "es2015",
+        "paths": {
+            "@angular/*": [
+                "../node_modules/@angular/*"
+            ],
+            "angular2-baidu-map": [
+                "lib"
+            ]
+        }
+    },
+    "exclude": ["test.ts", "**/*.spec.ts"]
 }

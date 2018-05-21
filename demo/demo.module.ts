@@ -21,4 +21,4 @@ import { QuickstartModule } from './components/quickstart/index.module'
     ApidocModule
   ]
 })
-export class DemoModule {}
+export class DemoModule { }
