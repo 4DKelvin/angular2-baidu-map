@@ -5,7 +5,7 @@
 ![][dt-url]
 ![][license-url]
 
-Baidu-Map module for Angular5
+Baidu-Map module for Angular4.x
 
 Read full documentation here: [documentation](https://leftstick.github.io/angular2-baidu-map/)
 
